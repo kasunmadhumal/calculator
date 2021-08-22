@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class UserInput {
 
     static String choice;
-    public UserInput(){
-        try{
+
+    public UserInput() {
+        try {
             Scanner obj = new Scanner(System.in);
             System.out.println("Enter operator :\n" +
                     "1. add\n" +
@@ -14,7 +15,7 @@ public class UserInput {
                     "3. mul\n");
             choice = obj.nextLine();
             obj.close();
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println("An error occured in UserInput class");
             System.out.println(e);
         }
