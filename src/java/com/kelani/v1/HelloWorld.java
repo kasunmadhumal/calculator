@@ -1,8 +1,10 @@
-package com.kelani.uni;
+package com.kelani.v1;
 
-public class Helloworld {
+class HelloWorld{
+
     public static void main(String[] args){
         System.out.println("HELLO WORLD");
 
-    }
+
+}
 }
